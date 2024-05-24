@@ -38,7 +38,8 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 4. Set up the sensitive settings in settings.py:
-- Edit the settings.py file and set the SECRET_KEY, TELEGRAM_TOKEN, and CRYPTO_KEY variables with your own values:
+
+Edit the settings.py file and set the SECRET_KEY, TELEGRAM_TOKEN, and CRYPTO_KEY variables with your own values:
 
 ```python
 # settings.py
